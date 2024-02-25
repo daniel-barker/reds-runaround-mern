@@ -1,0 +1,39 @@
+body,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #ddf5ff;
+  overflow: hidden;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  display: block;
+  padding: 0 10px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav-logo {
+  width: 490px;
+  height: 296px;
+  display: block;
+  margin: 0 auto;
+}

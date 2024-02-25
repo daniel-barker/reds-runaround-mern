@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300;400;500;600;700&display=swap');
+
+* {
+  background-color: #ddf5ff;
+  font-family: 'Marhey', sans-serif;
+}
+
+.title-heading {
+  font-size: 5rem;
+  font-weight: 300;
+  margin-top: 1rem;
+  text-align: center;
+  color: #000;
+}
+
+.subtitle-heading {
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-align: center;
+  color: #000;
+}
+
+.smaller-subtitle-heading {
+  font-size: 1.7rem;
+  font-weight: 300;
+  text-align: center;
+  color: #000;
+}
+
+.body-text {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: center;
+  color: #000;
+}
+
+li h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #000;
+}
+
+ul li {
+  font-size: 1rem;
+}
+
+.little-bigger {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.faqs h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
