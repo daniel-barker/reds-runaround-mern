@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { Container, Form, Button, Row, Col } from "react-bootstrap";
 import Header from "../components/Header";
@@ -7,6 +7,10 @@ const FORM_ENDPOINT =
   "https://public.herotofu.com/v1/d9abb490-9203-11ee-9fc3-0f51c88dc991";
 
 const Contact = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const [submitted, setSubmitted] = useState(false);
   const [formState, setFormState] = useState({
     name: "",

@@ -1,6 +1,11 @@
 import Header from "../components/Header";
 import { Row, Col } from "react-bootstrap";
+import { useEffect } from "react";
+
 const OurServicesScreen = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Header />

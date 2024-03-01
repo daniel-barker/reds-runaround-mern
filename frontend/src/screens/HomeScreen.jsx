@@ -1,9 +1,13 @@
 import home from "../assets/home.png";
 import { Image, Container } from "react-bootstrap";
-
+import { useEffect } from "react";
 import Header from "../components/HeaderNoLogo";
 
 const HomeScreen = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Header />

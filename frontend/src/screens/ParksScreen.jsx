@@ -5,8 +5,13 @@ import jameshunter from "../assets/jameshunter.jpeg";
 import shirlington from "../assets/shirlington.jpeg";
 import utah from "../assets/utah.jpeg";
 import { Row, Col, Image } from "react-bootstrap";
+import { useEffect } from "react";
 
 const ParksScreen = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Header />

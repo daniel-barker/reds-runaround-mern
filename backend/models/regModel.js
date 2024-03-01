@@ -51,7 +51,6 @@ const registrationSchema = mongoose.Schema(
       preferredService: String,
       bathService: Boolean,
       preferredDaysTimes: String,
-      specialInstructions: String,
     },
     consentAgreements: {
       liabilityWaiver: Boolean,

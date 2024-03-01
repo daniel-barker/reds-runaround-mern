@@ -52,7 +52,7 @@ const Footer = () => {
         </Row>
         <Row>
           <Col className="text-center py-3">
-            © {new Date().getFullYear()} Red's Runaround. All Rights Reserved.
+            © {new Date().getFullYear()} Reds Runaround. All Rights Reserved.
           </Col>
         </Row>
       </Container>

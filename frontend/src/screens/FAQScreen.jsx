@@ -1,7 +1,11 @@
 import Header from "../components/Header";
 import { Row, Col } from "react-bootstrap";
+import { useEffect } from "react";
 
 const FAQScreen = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Header />
@@ -196,8 +200,7 @@ const FAQScreen = () => {
               oatmeal-based shampoo, known for its soothing properties and
               suitability for sensitive skin. This basic bathing package ensures
               your dog returns home clean and fresh. Please note, additional
-              grooming services are not included but may be available upon
-              request.
+              grooming services are currently unavailable.
             </div>
             <br />
             <h3>What is your cancellation and refund policy?</h3>
