@@ -250,6 +250,11 @@ const RegistrationScreen = () => {
               that you have read and agree to the terms of the waiver.
             </strong>
           </p>
+          <p className="text-center">
+            Final note: If you are chosen to participate in our pilot program,
+            you will be contacted to set up a meet and greet with our team.
+            Thank you for your interest in Red's Runaround!
+          </p>
         </Col>
         <Col></Col>
       </Row>
