@@ -18,7 +18,7 @@ const HomeScreen = () => {
         <p className="body-text px-5">
           Embark on a journey of tail-wagging fun with Red's Runaround, a unique
           dog adventure service designed to unleash joy! For just $60, we offer
-          a 4-hour block of bliss and freedom for your furry companion. Our
+          a 3-hour block of bliss and freedom for your furry companion. Our
           service is thoughtfully structured to maximize fun and minimize hassle
           for you and your pet.
         </p>
